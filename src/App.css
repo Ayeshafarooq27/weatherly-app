@@ -1,0 +1,64 @@
+/* Make full screen background and center content */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Center content vertically */
+.container-center {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Weather card styling */
+.card {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+/* Responsive input group */
+.input-group input,
+.input-group button {
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+}
+
+/* Weather image */
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Text adjustments */
+.card h1 {
+  font-size: 2.5rem;
+}
+.card h4 {
+  font-size: 1.2rem;
+}
+
+/* Responsive padding for mobile */
+@media (max-width: 576px) {
+  .card {
+    padding: 1rem !important;
+  }
+
+  .card h1 {
+    font-size: 2rem;
+  }
+
+  .card h4 {
+    font-size: 1rem;
+  }
+
+  .input-group input,
+  .input-group button {
+    font-size: 0.9rem;
+  }
+}
