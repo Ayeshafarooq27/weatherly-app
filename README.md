@@ -1,12 +1,42 @@
-# React + Vite
+# 🌤️ Weatherly - React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Weatherly** is a beautiful and responsive weather app built with **React** and **Bootstrap**, using real-time data from the **OpenWeatherMap API**. Just enter a city name and get instant weather updates including temperature, humidity, wind speed, and more — all in an elegant UI!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+🌐 [Click here to view live]('https://skycast-cloudpeek.netlify.app/')
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+>
+
+---
+
+## 🚀 Features
+
+- 🌇 Real-time weather data by city
+- 🌡️ Temperature with feels like
+- 💧 Humidity and wind speed
+- 🖼 Weather condition icon
+- 📱 Fully responsive UI (mobile-friendly)
+- 🔍 Search functionality with validation
+- ⚙️ Clean code and component-based structure
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (with Hooks)
+- **Bootstrap 5**
+- **OpenWeatherMap API**
+- HTML5, CSS3
+
+---
+
+## 🧪 How to Run Locally
+
+```bash
+git clone https://github.com/Ayeshafarooq27/weatherly-app.git
+cd weatherly-app
+npm install
+npm start
